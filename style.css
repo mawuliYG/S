@@ -1,0 +1,121 @@
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #f7f3f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  background-color: #b26db0;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* NAVIGATION */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #d5a6d2;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #4d1f4d;
+}
+
+/* HERO SECTION */
+.hero {
+  background: url("https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9") center/cover no-repeat;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1 {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px 40px;
+  color: white;
+  border-radius: 10px;
+}
+
+/* CONTENT SECTIONS */
+section {
+  padding: 40px;
+}
+
+h2 {
+  color: #804d7c;
+  margin-bottom: 20px;
+}
+
+/* TABLE STYLING */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table th, table td {
+  border: 1px solid #b583b2;
+  padding: 12px;
+  text-align: left;
+}
+
+table th {
+  background-color: #d7b6d6;
+}
+
+/* LISTS */
+ul, ol {
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  background-color: #b26db0;
+  color: white;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* BUTTONS */
+button, .btn {
+  background-color: #b26db0;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #8e4e8c;
+}
